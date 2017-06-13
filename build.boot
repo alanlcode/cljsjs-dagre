@@ -1,11 +1,14 @@
 (set-env!
   :resource-paths #{"resources"}
-  :dependencies '[[cljsjs/boot-cljsjs "0.5.0" :scope "test"]])
+  :dependencies '[[cljsjs/boot-cljsjs "0.5.0" :scope "test"]
+                  [adzerk/bootlaces "0.1.13" :scope "test"]])
 
 (require '[cljsjs.boot-cljsjs.packaging :refer :all])
+(require '[adzerk.bootlaces :refer :all])
 
 (def +lib-version+ "0.7.5-fork")
-(def +version+ (str +lib-version+ "-0"))
+(def +version+ (str +lib-version+ "-0-SNAPSHOT"))
+(bootlaces! +version+)
 
 (task-options!
   pom  {:project     'alanlcode/dagre
