@@ -3,7 +3,7 @@
 ClojureScript wrapper for [dagre](https://github.com/cpettitt/dagre)
 [](dependency)
 ```clojure
-[cljsjs/dagre "0.7.5-fork-0"] ;; latest release
+[cljsjs/dagre "0.7.5-fork-0-SNAPSHOT"] ;; latest release
 ```
 [](dependency)
 
