@@ -13,8 +13,8 @@
 (task-options!
   pom  {:project     'alanlcode/dagre
         :version     +version+
-        :description "dagre - Graph layout for JavaScript."
-        :url         "https://github.com/alanlcode/dagre"
+        :description "ClojureScript wrapper for dagre."
+        :url         "https://github.com/alanlcode/cljsjs-dagre"
         :license     {"MIT" "https://opensource.org/licenses/MIT"}
         :scm         {:url "https://github.com/alanlcode/cljsjs-dagre"}})
 
