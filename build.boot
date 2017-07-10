@@ -5,7 +5,7 @@
 (require '[cljsjs.boot-cljsjs.packaging :refer :all])
 
 (def +lib-version+ "0.7.5-fork")
-(def +version+ (str +lib-version+ "-0-SNAPSHOT"))
+(def +version+ (str +lib-version+ "-0"))
 
 (task-options!
   pom  {:project     'alanlcode/dagre
